@@ -1,65 +1,146 @@
-body {
-   /*main color #212121*/
-   /*secondary color #757575*/
-   /*white #ffffff*/
-   /*blue #2196F3*/
-   
-    font-family: 'Roboto';
-    color:#212121;
-    background-color: #fff;
+/* Common css*/
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent1-color: #2196f3;
+  --accent2-color: #ffffff;
+  --button-color:#F5F4FA;
 }
 
-ul {
-    list-style: none;
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  /*main color #212121*/
+  /*secondary color #757575*/
+  /*white #ffffff*/
+  /*blue #2196F3*/
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+
 
 .site-nav .logo {
-        color: #000000;
-        text-decoration: none;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
 }
 
 /* site navigation*/
 .site-nav .link {
-    color: #000000;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
+
 .site-nav .link-blue {
-    color:#2196F3;
-    text-decoration:none;
+  color: #2196f3;
+  text-decoration: none;
 }
-    
+
+.site-nav .link-gray {
+  color: #757575;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent1-color)
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #7a53ef;
+  color: #2196f3;
 }
-.site-nav .link-blue:hover,
-.site-nav .link-blue:focus {
-    color: #7a53ef;
+
+.site-nav .link-gray:hover,
+.site-nav .link-gray:focus {
+  color: #2196f3;
 }
- /* Hero*/
- .hero-title {
-    color: #000000;
- }
 
 
- /* Section */
+
+/* Hero*/
+
+.hero {
+    text-align: center;
+}
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: var(--primary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+
+}
+
+/* Section */
 .section-title {
-    color:#000000;
+  color: var(--primary-text-color);
+}
+.section-title-invisible {
+  color: transparent;
 }
 
 
 /* Features*/
 .feature-list .title {
-    color:#000000
+  color: #000000;
+}
+
+.feature-list .description {
+  color: var(--secondary-text-color);
+}
+
+.team .title {
+  color: var(--primary-text-color);
+}
+
+/* Button*/
+
+.button-blue {
+  color: var(--accent2-color);
+  background-color: var(--accent1-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  border 1px solid var(--accent1-color);
+  border-color: var(--accent1-color);
+}
+.button-gray {
+  color: var(--primary-text-color);
+  background-color: var(--button-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+  border-color: transparent;
+} 
+  .button-gray:hover,
+  .button-gray:focus {
+  background-color: #2196f3;
+
+    }
 }
