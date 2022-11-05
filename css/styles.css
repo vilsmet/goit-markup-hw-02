@@ -5,6 +5,7 @@
   --accent1-color: #2196f3;
   --accent2-color: #ffffff;
   --button-color: #F5F4FA;
+  --background-color: #2F303A;
 }
 
 .list {
@@ -13,13 +14,7 @@
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 
 body {
   /*main color #212121*/
@@ -30,10 +25,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: #fff;
+  letter-spacing: 0.03em;
+ 
+ 
 }
 
 
-.site-nav .logo {
+ .logo {
   color: var(--primary-text-color);
   text-decoration: none;
   font-family: 'Raleway';
@@ -42,7 +40,9 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
+}
+.logoinvert {
+  color: var(--accent2-color)
 }
 
 /* site navigation*/
@@ -56,7 +56,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link-blue {
+.link-blue {
   color: #2196f3;
   text-decoration: none;
 }
@@ -77,6 +77,10 @@ body {
 
 .site-nav .link-gray:hover,
 .site-nav .link-gray:focus {
+  color: #2196f3;
+}
+.logo:hover,
+.logo:focus {
   color: #2196f3;
 }
 
@@ -102,20 +106,31 @@ body {
 /* Section */
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-title-invisible {
   color: transparent;
+  padding: 0;
 }
 
 
 /* Features*/
 .feature-list .title {
-  color: #000000;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .feature-list .description {
   color: var(--secondary-text-color);
+  font-size: 14px;
+   line-height: 1.71;
 }
 
 .team .title {
@@ -147,6 +162,23 @@ body {
 
 .button-gray:hover,
 .button-gray:focus {
-  background-color: #2196f3;
-
+  background-color: var(--accent1-color);
 }
+.footer {
+  background-color: var(--background-color);
+}
+.street {
+font-size: 14px;
+line-height: 1.71;
+color: var(--accent2-color);
+font-style: normal;
+}
+.footer .address-contact {
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 24px;
+font-style: normal;
+text-decoration: none;
+}
+
+
