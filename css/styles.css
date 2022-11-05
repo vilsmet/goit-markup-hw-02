@@ -4,7 +4,7 @@
   --secondary-text-color: #757575;
   --accent1-color: #2196f3;
   --accent2-color: #ffffff;
-  --button-color:#F5F4FA;
+  --button-color: #F5F4FA;
 }
 
 .list {
@@ -12,6 +12,7 @@
   padding: 0;
   margin: 0;
 }
+
 h1,
 h2,
 h3,
@@ -84,8 +85,9 @@ body {
 /* Hero*/
 
 .hero {
-    text-align: center;
+  text-align: center;
 }
+
 .hero-title {
   margin-top: 0px;
   margin-bottom: 40px;
@@ -101,6 +103,7 @@ body {
 .section-title {
   color: var(--primary-text-color);
 }
+
 .section-title-invisible {
   color: transparent;
 }
@@ -122,6 +125,7 @@ body {
 /* Button*/
 
 .button-blue {
+  cursor: pointer;
   color: var(--accent2-color);
   background-color: var(--accent1-color);
   border-radius: 4px;
@@ -130,17 +134,19 @@ body {
   border 1px solid var(--accent1-color);
   border-color: var(--accent1-color);
 }
+
 .button-gray {
+  cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--button-color);
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
   border-color: transparent;
-} 
-  .button-gray:hover,
-  .button-gray:focus {
+}
+
+.button-gray:hover,
+.button-gray:focus {
   background-color: #2196f3;
 
-    }
 }
