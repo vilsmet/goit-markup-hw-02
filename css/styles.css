@@ -1,0 +1,63 @@
+body {
+   /*main color #212121*/
+   /*secondary color #757575*/
+   /*white #ffffff*/
+   /*blue #2196F3*/
+   
+    font-family: 'Roboto';
+    color:#212121;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/* site navigation*/
+.site-nav .link {
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+.site-nav .link-blue {
+    color:#2196F3;
+    text-decoration:none;
+}
+    
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #7a53ef;
+}
+.site-nav .link-blue:hover,
+.site-nav .link-blue:focus {
+    color: #ed2020;
+}
+ /* Hero*/
+ .hero-title {
+    color: #000000;
+ }
+
+
+ /* Section */
+.section-title {
+    color:#000000;
+}
+
+
+/* Features*/
+.feature-list .title {
+    color:#000000
+}
