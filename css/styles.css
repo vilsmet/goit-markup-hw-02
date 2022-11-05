@@ -12,14 +12,16 @@ body {
 ul {
     list-style: none;
 }
-.logo {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+
+.site-nav .logo {
+        color: #000000;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
 }
 
 /* site navigation*/
@@ -43,7 +45,7 @@ ul {
 }
 .site-nav .link-blue:hover,
 .site-nav .link-blue:focus {
-    color: #ed2020;
+    color: #7a53ef;
 }
  /* Hero*/
  .hero-title {
