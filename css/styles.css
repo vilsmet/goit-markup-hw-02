@@ -45,6 +45,7 @@ body {
 }
 
 /* Site navigation*/
+
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
