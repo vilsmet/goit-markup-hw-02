@@ -35,14 +35,17 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
 }
-.logoinvert {
-  color: var(--accent2-color)
+.logo-bottom {
+  color: var(--accent2-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 
 /* site navigation*/
@@ -83,6 +86,10 @@ body {
 .logo:focus {
   color: #2196f3;
 }
+.logo-bottom:hover,
+.logo-bottom:focus {
+  color: var(--accent1-color)
+}
 
 
 
@@ -90,17 +97,21 @@ body {
 
 .hero {
   text-align: center;
+  background-color: var(--background-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
+
 }
 
 .hero-title {
+  min-width: 700px;
+  color: var(--accent2-color);
+  text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 40px;
-  color: var(--primary-text-color);
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-
-
 }
 
 /* Section */
@@ -122,9 +133,9 @@ body {
 /* Features*/
 .feature-list .title {
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
 }
 
 .feature-list .description {
@@ -135,6 +146,15 @@ body {
 
 .team .title {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  margin-bottom: 20px;
+}
+.team .position {
+color: var(--secondary-text-color)
+font-size: 16px;
+line-height: 1.19px;
 }
 
 /* Button*/
@@ -148,6 +168,7 @@ body {
   text-align: center;
   border 1px solid var(--accent1-color);
   border-color: var(--accent1-color);
+  min-width: 270px;
 }
 
 .button-gray {
@@ -173,11 +194,32 @@ line-height: 1.71;
 color: var(--accent2-color);
 font-style: normal;
 }
-.footer .address-contact {
+.address-contact {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 24px;
 font-style: normal;
+text-decoration: none;
+}
+.address-contact:hover,
+.address-contact:focus {
+color: var(--accent1-color);
+}
+
+.portfolio-title {
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+}
+.portfolio-short {
+color: var(--secondary-text-color);
+font-size: 16px;
+line-height: 30px;
+}
+.nodecoration {
 text-decoration: none;
 }
 
