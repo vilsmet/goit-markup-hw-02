@@ -72,8 +72,7 @@ body {
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding-top: 200px;
-  padding-bottom: 280px;
+
 }
 .hero-title {
   min-width: 700px;
@@ -97,7 +96,6 @@ body {
 }
 .section-title-invisible {
   display: none;
-  padding: 0;
 }
 
 
@@ -137,7 +135,9 @@ body {
   text-align: center;
   border 1px solid var(--accent1-color);
   border-color: var(--accent1-color);
-  min-width: 270px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 .button-gray {
   cursor: pointer;
