@@ -6,6 +6,7 @@
   --accent2-color: #ffffff;
   --button-color: #F5F4FA;
   --background-color: #2F303A;
+  --button-active: #188CE8;
 }
 
 /* Global*/
@@ -34,13 +35,13 @@ body {
   line-height: 1.19;
 }
 .site-nav .logo-black {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .footer .logo-white {
-  color: #ffffff;
+  color: var(--accent2-color);
 }
 .logo-highlight {
-  color: #2196f3;
+  color: var(--accent1-color);
   text-decoration: none;
 }
 
@@ -57,6 +58,10 @@ body {
 .site-nav .link-gray {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent1-color)
@@ -78,7 +83,6 @@ body {
 
 }
 .hero-title {
-  min-width: 700px;
   color: var(--accent2-color);
   text-transform: uppercase;
   margin-top: 0px;
@@ -108,6 +112,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
+  text-transform: uppercase;
 }
 .feature-list .description {
   color: var(--secondary-text-color);
@@ -116,17 +121,22 @@ body {
 }
 .staff {
   background-color: var(--button-color);
-  padding: 10px 0px;
+  padding: 30px 0px;
+}
+.staff .member {
+  background-color: var(--accent2-color);
+  padding-bottom: 5px;
 }
 
-.team .title {
+
+.staff .title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
   margin-bottom: 20px;
 }
-.team .position {
+.staff .position {
   color: var(--secondary-text-color)
   font-size: 16px;
   line-height: 1.19px;
@@ -139,12 +149,16 @@ body {
   background-color: var(--accent1-color);
   border-radius: 4px;
   padding: 10px 32px;
-  text-align: center;
-  border 1px solid var(--accent1-color);
-  border-color: var(--accent1-color);
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+}
+.button-blue:hover,
+.button-blue:focus {
+  background-color: var(--button-active);
 }
 .button-gray {
   cursor: pointer;
@@ -164,6 +178,7 @@ body {
   background-color: var(--accent1-color);
   color: var(--accent2-color)
 }
+
 
 /* Footer*/
 .footer {
