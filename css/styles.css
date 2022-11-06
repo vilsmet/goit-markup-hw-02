@@ -15,6 +15,7 @@ body {
   background-color: var(--accent2-color);
   letter-spacing: 0.03em;
 }
+
 .list {
   list-style: none;
   padding: 0;
@@ -72,6 +73,7 @@ body {
 .hero {
   text-align: center;
   background-color: var(--background-color);
+  padding: 10px 0px;
 
 }
 .hero-title {
@@ -110,6 +112,10 @@ body {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
+}
+.staff {
+  background-color: var(--button-color);
+  padding: 10px 0px;
 }
 
 .team .title {
