@@ -74,18 +74,15 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
+.site-nav .link:focus,
 .site-nav .link-gray:hover,
 .site-nav .link-gray:focus {
-  color: #2196f3;
+  color: var(--accent1-color);
 }
+
+
 .logo:hover,
-.logo:focus {
-  color: #2196f3;
-}
+.logo:focus, 
 .logo-bottom:hover,
 .logo-bottom:focus {
   color: var(--accent1-color)
@@ -111,7 +108,7 @@ body {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 
 /* Section */
@@ -197,7 +194,7 @@ font-style: normal;
 .address-contact {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 font-style: normal;
 text-decoration: none;
 }
@@ -210,14 +207,14 @@ color: var(--accent1-color);
 color: var(--primary-text-color);
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 
 }
 .portfolio-short {
 color: var(--secondary-text-color);
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
 }
 .nodecoration {
 text-decoration: none;
