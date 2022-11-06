@@ -161,6 +161,7 @@ body {
 .button-gray:hover,
 .button-gray:focus {
   background-color: var(--accent1-color);
+  color: var(--accent2-color)
 }
 
 /* Footer*/
